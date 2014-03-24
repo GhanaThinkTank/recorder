@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/cameraPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+        </FrameLayout>
+		
+        <ImageView
+            android:id="@+id/messageOverlay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/overlay_content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/overlay" />
+
+        <TextView
+            android:id="@+id/recordingTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/micLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>
