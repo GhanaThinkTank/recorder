@@ -1,4 +1,4 @@
-package com.thinktank.recorderisrael;
+package com.thinktank.recorderisraelstasolution;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;

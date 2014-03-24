@@ -17,7 +17,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
         android:allowBackup="true" >
         <activity
-            android:name="com.thinktank.recorderisrael.AndroidVideoCapture"
+            android:name="com.thinktank.recorderisraelstasolution.AndroidVideoCapture"
         	android:screenOrientation="landscape" 
             android:label="@string/app_name" >
             <intent-filter>
