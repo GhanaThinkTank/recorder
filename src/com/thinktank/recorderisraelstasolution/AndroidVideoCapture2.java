@@ -24,7 +24,7 @@ import android.widget.Toast;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class AndroidVideoCapture extends Activity {
+public class AndroidVideoCapture2 extends Activity {
 
 	// set the maximum time per recording in milliseconds (60,000 = 60 seconds)
 	int maxLength = 120000;
@@ -72,7 +72,7 @@ public class AndroidVideoCapture extends Activity {
 
 		// If there is no camera, exit gracefully
 		if (myCamera == null) {
-			Toast.makeText(AndroidVideoCapture.this, "Fail to get Camera", Toast.LENGTH_LONG).show();
+			Toast.makeText(AndroidVideoCapture2.this, "Fail to get Camera", Toast.LENGTH_LONG).show();
 		}
 
 		// find the elements in the main.xml for where to put the video preview,
@@ -117,7 +117,7 @@ public class AndroidVideoCapture extends Activity {
 					}
 					releaseCamera();
 					if (!prepareMediaRecorder()) {
-						Toast.makeText(AndroidVideoCapture.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_LONG).show();
+						Toast.makeText(AndroidVideoCapture2.this, "Fail in prepareMediaRecorder()!\n - Ended -", Toast.LENGTH_LONG).show();
 						finish();
 					}
 
