@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.thinktank.recorderisraelstasolution.R;
+import com.thinktank.recorderstasolution.R;
 
 import android.app.Activity;
 import android.content.Context;
@@ -138,31 +138,31 @@ public class AndroidVideoCapture extends Activity {
 											micLevel.setText("");
 						    	    	};
 						    	    	if (amplitude > 9 && amplitude < 20) {
-											micLevel.setText("|");
-						    	    	};
-						    	    	if (amplitude > 19 && amplitude < 30) {
 											micLevel.setText("||");
 						    	    	};
+						    	    	if (amplitude > 19 && amplitude < 30) {
+											micLevel.setText("||||");
+						    	    	};
 						    	    	if (amplitude > 29 && amplitude < 40) {
-											micLevel.setText("|||");
-						    	    	};
-						    	    	if (amplitude > 39 && amplitude < 50) {
-											micLevel.setText("||||");
-						    	    	};
-						    	    	if (amplitude > 49 && amplitude < 60) {
-											micLevel.setText("||||");
-						    	    	};
-						    	    	if (amplitude > 59 && amplitude < 70) {
-											micLevel.setText("|||||");
-						    	    	};
-						    	    	if (amplitude > 69 && amplitude < 80) {
 											micLevel.setText("||||||");
 						    	    	};
+						    	    	if (amplitude > 39 && amplitude < 50) {
+											micLevel.setText("||||||||");
+						    	    	};
+						    	    	if (amplitude > 49 && amplitude < 60) {
+											micLevel.setText("||||||||||");
+						    	    	};
+						    	    	if (amplitude > 59 && amplitude < 70) {
+											micLevel.setText("||||||||||||");
+						    	    	};
+						    	    	if (amplitude > 69 && amplitude < 80) {
+											micLevel.setText("||||||||||||||");
+						    	    	};
 						    	    	if (amplitude > 79 && amplitude < 90) {
-											micLevel.setText("|||||||");
+											micLevel.setText("||||||||||||||||");
 						    	    	};
 						    	    	if (amplitude > 89) {
-											micLevel.setText("||||||||");
+											micLevel.setText("||||||||||||||||||");
 						    	    	};
 					    	    	} else {
 					    	    		micLevel.setText("");
