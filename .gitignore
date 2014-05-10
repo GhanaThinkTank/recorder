@@ -34,3 +34,5 @@ proguard/
 .settings/org.eclipse.jdt.core.prefs
 
 bin/*.apk
+
+*.apk
