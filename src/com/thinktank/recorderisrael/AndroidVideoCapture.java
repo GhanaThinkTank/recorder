@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.thinktank.recorderisraelstasolution.R;
+import com.thinktank.recorderisrael.R;
 
 import android.app.Activity;
 import android.content.Context;
