@@ -27,8 +27,7 @@ proguard/
 *.ipr
 *.iws
 .idea/
-
-# Include final apk
 !bin/*.apk
 
 .settings/org.eclipse.jdt.core.prefs
+

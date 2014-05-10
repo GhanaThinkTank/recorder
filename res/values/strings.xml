@@ -2,7 +2,7 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="hello">Hello World, AndroidVideoCapture!</string>
-    <string name="app_name">Recorder (STASolution)</string>
+    <string name="app_name">Recorder (STA Solution)</string>
     <string name="record">Record</string>
     <string name="overlay_content_description">Overlay Message</string>
     <string name="mic_level">Microphone input level</string>
