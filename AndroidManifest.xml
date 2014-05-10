@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thinktank.recorderisraelstasolution"
+    package="com.thinktank.recorderstasolution"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,7 +17,7 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
         android:allowBackup="true" >
         <activity
-            android:name="com.thinktank.recorderisraelstasolution.AndroidVideoCapture2"
+            android:name="com.thinktank.recorderstasolution.AndroidVideoCapture"
         	android:screenOrientation="landscape" 
             android:label="@string/app_name" >
             <intent-filter>
