@@ -1,10 +1,10 @@
-package com.thinktank.recorderisrael;
+package com.thinktank.recorder;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import com.thinktank.recorderisrael.R;
+import com.thinktank.recorder.R;
 
 import android.app.Activity;
 import android.content.Context;
